@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PicShow</string>
+    <string name="download_image">DownLoad Image</string>
+    <string name="input_dialog_title">Please input image URL</string>
+    <string name="error_download_image">Download image failed!</string>
+</resources>

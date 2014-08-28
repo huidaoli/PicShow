@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+	<ProgressBar
+		style="?android:attr/progressBarStyleLarge"
+		android:id="@+id/progressBarImageLoading" 
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content" 
+		android:layout_centerInParent="true" />
+	
+	<ImageSwitcher 
+	    android:id="@+id/imageSwitcherMain"
+		android:layout_height="match_parent" 
+		android:layout_width="match_parent"
+		android:layout_alignParentLeft="true" 
+		android:layout_alignParentTop="true"
+		android:background="@drawable/background"/>
+
+	<Gallery 
+	    android:id="@+id/galleryMain" 
+	    android:background="#55080000"
+		android:layout_width="match_parent" 
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentBottom="true" 
+		android:layout_height="60dp"
+		android:spacing="8dp" 
+		android:gravity="center_vertical" />
+
+
+</RelativeLayout>

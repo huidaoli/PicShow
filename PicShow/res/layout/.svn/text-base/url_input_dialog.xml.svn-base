@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<EditText
+		android:text="http://www.itis3g.cn/images/article/android.jpg"
+		android:layout_width="300dp" android:id="@+id/editUrl"
+		android:layout_gravity="center_horizontal"
+		android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+		android:scrollHorizontally="true" android:layout_height="61dp" />
+	<Button android:id="@+id/buttonGo" android:text="Download" android:layout_alignParentBottom="true"
+		android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="121dp"></Button>
+</LinearLayout>
